@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="./jquery-3.7.1.js"></script>
+    </head>
+    <body>
+        <p>Welcome</p>
+        <button id="s">show</button> <button id="h">Hide</button>
+        <script>
+            $(document).ready(function(){
+              $('#h').click(function(){
+                $('p').hide(5000)
+              })
+              $('#s').dblclick(function(){
+                $('p').show(7000)
+              })
+            })
+
+            
+        </script>
+    </body>
+</html>
